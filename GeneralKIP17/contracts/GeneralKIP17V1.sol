@@ -1859,12 +1859,12 @@ contract GeneralKIP17V1 is Initializable, OwnableUpgradeable, KIP17TokenAUpgrade
     _updateBatchSize(amount_);
   }
 
-  // function mintTo(address[] memory addresses, uint256[] memory amounts) public onlyOwner {
-  //   require(addresses.length == amounts.length, "length not match");
-  //   for (uint256 i = 0; i < addresses.length; i++) {
-  //     _safeMint(addresses[i], amounts[i]);
-  //   }
-  // }
+  function mintTo(address[] memory addresses, uint256[] memory amounts) public onlyOwner {
+    require(addresses.length == amounts.length, "length not match");
+    for (uint256 i = 0; i < addresses.length; i++) {
+      _safeMint(addresses[i], amounts[i]);
+    }
+  }
 
   function _safeMintMany(address to, uint256 quantity_) private {
     require(totalSupply() + quantity_ <= limit, "can not mint this many");
