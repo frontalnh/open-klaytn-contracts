@@ -57,9 +57,9 @@
 			]
 		},
 		"contracts/GeneralKIP17V1.sol": {
-			"keccak256": "0x5068a374b6cb4d7f0306e59aa244dcba9600fbf026de900aa2566627a2f3cde0",
+			"keccak256": "0x7b67f82deb6589d921eadf6257d60fa74da3c3fe4ee96c1f11653f5ba2a44a9d",
 			"urls": [
-				"bzzr://020594b4a211b23190233d79dbbd6fe1bd68f85759f0e7fae8efc4d6f44c152a"
+				"bzzr://95201c79db0c7fe72d6ca269f6b81a3a4f4a373eb80d1f5c097e2e2ee2cd0507"
 			]
 		},
 		"contracts/IKIP13.sol": {
